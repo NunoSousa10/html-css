@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: 3px 4px 4px rgba(58, 22, 202, 0.425);
+        }
+        nav {
+            background-color: rgb(132, 126, 126);
+            padding: 3px;
+            box-shadow: 5px 3px 1px rgba(152, 39, 39, 0.487);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 20px;
+            }
+        
+nav > a:hover {
+    text-decoration: underline;
+}
+
+        main {
+            background-color: rgba(153, 163, 241, 0.807);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px;
+            box-shadow: 4px 2px 4px rgba(111, 112, 184, 0.829);
+        }
+        article {
+            background-color:  rgba(90, 93, 90, 0.973);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(88, 20, 214, 0.864);
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer >p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+</nav>
+    </header>
+    <main>
+<section id="assuntos">
+<p>Desporto Política Tecnologia</p>
+</section>
+<section id="notícias">
+    <p>Descobrir Inovações Categorias</p>
+<article>
+    <h2>Notícia sobre o Brasil</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab harum fuga ea, blanditiis illo dolorum corrupti nam maiores repellendus neque porro placeat earum dolorem minus similique doloribus nulla debitis.</p>
+</article>
+<article>
+    <aside>
+        <p>Artigo escrito por Nuno Sousa</p>
+    </aside>
+</article>
+</section>
+    </main>
+    <footer>
+<p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
